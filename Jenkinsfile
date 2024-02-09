@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Clone Code"){
             steps{
-                git url: "https://github.com/neelsoni26/react_django_demo_app", branch: "main"
+                git url: "https://github.com/riyazmohd02/React-django.git", branch: "main"
             }
         }
         stage("Build and Test") {
