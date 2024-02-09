@@ -45,7 +45,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/riyazmohd02/React-django.git'
+                git branch: 'main', url: 'https://github.com/riyazmohd02/Server.git'
             }
         }
 
